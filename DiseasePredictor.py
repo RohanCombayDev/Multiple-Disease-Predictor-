@@ -34,7 +34,18 @@ with st.sidebar:
                          default_index=0)
 
 # pages
+if select == 'Home':
+    st.title('Welcome to disease predictor')
+    st.write('')
+    st.write('This website will help you to predict whether you are on the verge of developing a particular diesase'
+             'or not')
+    st.write('We use different algorithms to predict likelihood of developing disease using patient history and '
+             'treatment data')
+    st.write('You can directly book appointment through our website if you find you are prone to some disease')
 
+    st.write('Even though this predictor is decently accurate we still intimate you not to completely rely on this')
+
+    st.write('Have a nice and healthy day ♥')
 if select == 'Breast Cancer Prediction':
     st.title('Breast Cancer Prediction using Machine Learning')
 
