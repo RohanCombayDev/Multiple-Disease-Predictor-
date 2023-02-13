@@ -4,3 +4,4 @@ Pillow==9.4.0
 PyMuPDF==1.21.1
 streamlit==1.18.1
 streamlit_option_menu==0.3.2
+scikit-learn==1.0.2
