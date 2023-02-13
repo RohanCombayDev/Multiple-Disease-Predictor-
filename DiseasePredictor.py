@@ -7,15 +7,15 @@ import datetime
 
 # loading saved models
 
-breast_cancer_model = pickle.load(open('C:/Users/LENOVO/Desktop/HACKATHON/Saved Models/breast_cancer_model.sav', 'rb'))
+breast_cancer_model = pickle.load(open('Saved Models/breast_cancer_model.sav', 'rb'))
 
-diabetes_model = pickle.load(open('C:/Users/LENOVO/Desktop/HACKATHON/Saved Models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('Saved Models/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/LENOVO/Desktop/HACKATHON/Saved Models/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('Saved Models/heart_disease_model.sav', 'rb'))
 
-kidney_disease_model = pickle.load(open('C:/Users/LENOVO/Desktop/HACKATHON/Saved Models/kidney_disease.sav', 'rb'))
+kidney_disease_model = pickle.load(open('Saved Models/kidney_disease.sav', 'rb'))
 
-covid_disease_model = pickle.load(open('C:/Users/LENOVO/Desktop/HACKATHON/Saved Models/Covid19_model.sav', 'rb'))
+covid_disease_model = pickle.load(open('Saved Models/Covid19_model.sav', 'rb'))
 # sidebar
 
 with st.sidebar:
