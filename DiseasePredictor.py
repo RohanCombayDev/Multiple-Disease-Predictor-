@@ -245,7 +245,7 @@ if select == 'Our Services':
 
     with st.container():
         st.write("                                                ")
-        image = Image.open('C:/Users/LENOVO/Desktop/HACKATHON/WEB APP/Screenshot 2023-01-30 165852.jpg')
+        image = Image.open('Screenshot 2023-01-30 165852.jpg')
         st.image(image, caption=None, width=400)
         st.write(':red[Dream Hospital]')
         st.write('It typically has a team of specialists from different medical disciplines, such as cardiology, oncology, neurology, orthopedics, gastroenterology, and others. The hospital may offer a range of services, including diagnostic tests, surgical procedures, and ongoing care for chronic conditions.')
@@ -267,7 +267,7 @@ if select == 'Our Services':
                 st.write(f'hello {name}')
 
     with st.container():
-        image = Image.open('C:/Users/LENOVO/Desktop/HACKATHON/WEB APP/Screenshot 2023-01-30 165958.jpg')
+        image = Image.open('Screenshot 2023-01-30 165958.jpg')
         st.image(image, caption=None, width=400)
         st.write(':red[Chinook Hospital]')
         st.write('Specializes in diagnosing and treating heart and cardiovascular diseases. It typically has a team of cardiologists, cardiac surgeons, and other medical professionals trained in caring for patients with heart conditions.')
@@ -292,7 +292,7 @@ if select == 'Our Services':
                 st.write(f'hello {name}')
 
     with st.container():
-        image = Image.open('C:/Users/LENOVO/Desktop/HACKATHON/WEB APP/Screenshot 2023-01-30 170042.jpg')
+        image = Image.open('Screenshot 2023-01-30 170042.jpg')
         st.image(image, caption=None, width=400)
         st.write(':red[Siedman Cancer Hospital]')
         st.write('Specializes in the diagnosis, treatment, and care of cancer patients. It typically has a '
