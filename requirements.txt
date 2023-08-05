@@ -1,4 +1,4 @@
-pip install --upgrade pip
+/opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
 fitz==0.0.1.dev2
 Flask==1.1.2
 Pillow==9.4.0
